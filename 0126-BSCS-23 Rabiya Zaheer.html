@@ -1,0 +1,143 @@
+<html>
+<head>
+    <title>Admission Portal</title>
+</head>
+<body>
+<center>
+    <br>
+    <table border="1" bordercolor="maroon" width="1000" cellpadding="20" bgcolor="white">
+        <tr bgcolor="maroon">
+            <th colspan="2">
+                <center> <img src="Government_College_University_Logo-removebg-preview.png" width="150"> </center>
+                <font align="center" color="white" size="5"> <b> Government College University, Lahore</b></font>
+                <br>
+                <font align="center" color="lightblue" size="2"> Welcome to University Student Admission Portal</font>
+            </th>
+        </tr>
+        <form>
+        <tr>
+            <th align="left" colspan="2" bgcolor="lightgrey" >
+                <b>Personal Information</b>
+            </th>
+        </tr>
+        <tr>
+            <td>Full Name</td>
+            <td><input type="text" placeholder="Enter your full name"></td>
+        </tr>
+        <tr>
+            <td>Father Name</td>
+            <td><input type="text" placeholder="Enter your father's name"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="g"> Male 
+                <input type="radio" name="g"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>CNIC/B-Form</td>
+            <td><input type="number" placeholder="xxxxx-xxxxxxx-x"></td>
+        </tr>
+        <tr>
+            <td>E-mail Address</td>
+            <td><input type="text" placeholder="abc@xyz.com"></td>
+        </tr>
+        <tr>
+            <td>Mobile number</td>
+            <td><input type="number" placeholder="+92-xxx-xxxxxxx"></td>
+        </tr>
+        <tr>
+            <th align="left" colspan="2" bgcolor="lightgrey" >
+                <b>Academic Information</b>
+            </th>
+        </tr>
+        <tr>
+            <td>Last Qualification</td>
+            <td><select id="Qualification" name="Qualification">
+                <option value="Intermediate" selected>Intermediate</option>
+                <option value="ICS">ICS</option>
+                <option value="FA">FA</option>
+                <option value="I.Com">I.Com</option>
+                <option value="A-Levels">A-Levels</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Board/University</td>
+            <td><input type="text" placeholder="Enter your institute name"></td>
+        </tr>
+        <tr>
+            <td>Marks Obtained</td>
+            <td><input type="number" placeholder="Enter your obtained marks"></td>
+        </tr>
+        <tr>
+            <td>Total Marks</td>
+            <td><input type="number" placeholder="Enter Total Marks"></td>
+        </tr>
+        <tr>
+            <td>Year of Passing</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <th align="left" colspan="2" bgcolor="lightgrey" >
+                <b>Program Selection</b>
+            </th>
+        </tr>
+        <tr>
+            <td>Select Program</td>
+            <td><select id="Programs" name="Programs">
+                <option value="BS Computer Science" selected>BS Computer Science</option>
+                <option value="BS Software Engineering">BS Software Engineering</option>
+                <option value="BS Information Technology">BS Information Technology</option>
+                <option value="BS Artificial Intelligence">BS Artificial Intelligence</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Shift</td>
+            <td>
+                <input type="radio" name="g"> Morning 
+                <input type="radio" name="g"> Evening
+            </td>
+        </tr>
+        <tr>
+            <th align="left" colspan="2" bgcolor="lightgrey" >
+                <b>Upload Documents</b>
+            </th>
+        </tr>
+        <tr>
+            <td>Upload Photo</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td>Upload Result Card</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox"> I declare that the information provided is true and correct to the best of my knowledge.</td>
+        </tr>
+        <tr> 
+            <td colspan="2" align="center"> 
+                <input type="submit" value="Submit Application"> 
+                <input type="reset" value="Reset Form"> 
+            </td>
+        </tr>
+        </form>
+        <tr bgcolor="lightgrey">
+            <td colspan="2" align="center">
+                <font size="2"> © 2026 Government College University, Lahore | Online Admission System</font> 
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
